@@ -1,6 +1,6 @@
 MLOPS_exercises
 ==============================
-
+I am commiting most of the daily exercises of MLOPS that i did on my computer
 ...
 
 Project Organization
