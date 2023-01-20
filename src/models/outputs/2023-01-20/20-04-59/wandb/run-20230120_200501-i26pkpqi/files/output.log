@@ -1,0 +1,17 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/sahbiabderrazak/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_config.py", line 166, in __getattr__
+    return self.__getitem__(key)
+  File "/Users/sahbiabderrazak/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_config.py", line 133, in __getitem__
+    return self._items[key]
+KeyError: 'lr'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/train_model.py", line 36, in main
+    train_hp()
+  File "/Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/train_model.py", line 41, in train_hp
+    training(lr=wandb.config.lr)
+  File "/Users/sahbiabderrazak/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_config.py", line 168, in __getattr__
+    raise AttributeError(
+AttributeError: '<class 'wandb.sdk.wandb_config.Config'>' object has no attribute 'lr'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

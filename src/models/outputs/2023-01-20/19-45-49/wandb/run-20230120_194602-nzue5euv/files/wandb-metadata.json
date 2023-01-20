@@ -1,0 +1,42 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-01-20T18:46:03.761750",
+    "startedAt": "2023-01-20T18:46:02.942919",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/train_model.py",
+    "codePath": "src/models/train_model.py",
+    "git": {
+        "remote": "https://github.com/azizbenhaj/mlops_exercises.git",
+        "commit": "26c07ab228d09af5c930672ac71e9457557dfcc4"
+    },
+    "email": "ahmed.benhajhmida@epfl.ch",
+    "root": "/Users/sahbiabderrazak/Desktop/mlops_exercises",
+    "host": "MBP-de-Aziz.localdomain",
+    "username": "sahbiabderrazak",
+    "executable": "/Users/sahbiabderrazak/opt/anaconda3/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1400,
+        "min": 1400,
+        "max": 1400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1400,
+            "min": 1400,
+            "max": 1400
+        }
+    ],
+    "disk": {
+        "total": 112.70698928833008,
+        "used": 112.56388473510742
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

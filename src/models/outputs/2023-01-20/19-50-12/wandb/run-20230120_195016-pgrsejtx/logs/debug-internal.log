@@ -1,0 +1,171 @@
+2023-01-20 19:50:16,701 INFO    StreamThr :8512 [internal.py:wandb_internal():87] W&B internal server running at pid: 8512, started at: 2023-01-20 19:50:16.701060
+2023-01-20 19:50:16,702 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: status
+2023-01-20 19:50:16,712 INFO    WriterThread:8512 [datastore.py:open_for_write():85] open: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/run-pgrsejtx.wandb
+2023-01-20 19:50:16,712 DEBUG   SenderThread:8512 [sender.py:send():334] send: header
+2023-01-20 19:50:16,734 DEBUG   SenderThread:8512 [sender.py:send():334] send: run
+2023-01-20 19:50:17,185 INFO    SenderThread:8512 [dir_watcher.py:__init__():216] watching files in: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files
+2023-01-20 19:50:17,185 INFO    SenderThread:8512 [sender.py:_start_run_threads():1065] run started: pgrsejtx with start time 1674240616.704265
+2023-01-20 19:50:17,185 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: summary_record
+2023-01-20 19:50:17,186 INFO    SenderThread:8512 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-20 19:50:17,192 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: check_version
+2023-01-20 19:50:17,192 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: check_version
+2023-01-20 19:50:17,308 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: run_start
+2023-01-20 19:50:17,332 DEBUG   HandlerThread:8512 [system_info.py:__init__():31] System info init
+2023-01-20 19:50:17,332 DEBUG   HandlerThread:8512 [system_info.py:__init__():46] System info init done
+2023-01-20 19:50:17,332 INFO    HandlerThread:8512 [system_monitor.py:start():151] Starting system monitor
+2023-01-20 19:50:17,333 INFO    SystemMonitor:8512 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-20 19:50:17,334 INFO    HandlerThread:8512 [system_monitor.py:probe():172] Collecting system info
+2023-01-20 19:50:17,334 DEBUG   HandlerThread:8512 [system_info.py:probe():195] Probing system
+2023-01-20 19:50:17,334 INFO    SystemMonitor:8512 [interfaces.py:start():168] Started cpu
+2023-01-20 19:50:17,335 INFO    SystemMonitor:8512 [interfaces.py:start():168] Started disk
+2023-01-20 19:50:17,335 INFO    SystemMonitor:8512 [interfaces.py:start():168] Started memory
+2023-01-20 19:50:17,338 INFO    SystemMonitor:8512 [interfaces.py:start():168] Started network
+2023-01-20 19:50:17,347 DEBUG   HandlerThread:8512 [system_info.py:_probe_git():180] Probing git
+2023-01-20 19:50:17,383 DEBUG   HandlerThread:8512 [system_info.py:_probe_git():188] Probing git done
+2023-01-20 19:50:17,384 DEBUG   HandlerThread:8512 [system_info.py:probe():241] Probing system done
+2023-01-20 19:50:17,384 DEBUG   HandlerThread:8512 [system_monitor.py:probe():181] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.13', 'heartbeatAt': '2023-01-20T18:50:17.334709', 'startedAt': '2023-01-20T18:50:16.682004', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/train_model.py', 'codePath': 'src/models/train_model.py', 'git': {'remote': 'https://github.com/azizbenhaj/mlops_exercises.git', 'commit': '26c07ab228d09af5c930672ac71e9457557dfcc4'}, 'email': 'ahmed.benhajhmida@epfl.ch', 'root': '/Users/sahbiabderrazak/Desktop/mlops_exercises', 'host': 'MBP-de-Aziz.localdomain', 'username': 'sahbiabderrazak', 'executable': '/Users/sahbiabderrazak/opt/anaconda3/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1400, 'min': 1400, 'max': 1400}, 'cpu_freq_per_core': [{'current': 1400, 'min': 1400, 'max': 1400}], 'disk': {'total': 112.70698928833008, 'used': 112.57816696166992}, 'memory': {'total': 8.0}}
+2023-01-20 19:50:17,384 INFO    HandlerThread:8512 [system_monitor.py:probe():182] Finished collecting system info
+2023-01-20 19:50:17,384 INFO    HandlerThread:8512 [system_monitor.py:probe():185] Publishing system info
+2023-01-20 19:50:17,384 DEBUG   HandlerThread:8512 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-20 19:50:17,385 DEBUG   HandlerThread:8512 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-20 19:50:17,386 DEBUG   HandlerThread:8512 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-20 19:50:18,191 INFO    Thread-13 :8512 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/conda-environment.yaml
+2023-01-20 19:50:18,192 INFO    Thread-13 :8512 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/wandb-summary.json
+2023-01-20 19:50:18,192 INFO    Thread-13 :8512 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/requirements.txt
+2023-01-20 19:50:26,812 DEBUG   HandlerThread:8512 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-20 19:50:26,813 INFO    HandlerThread:8512 [system_monitor.py:probe():187] Finished publishing system info
+2023-01-20 19:50:26,819 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: status_report
+2023-01-20 19:50:26,819 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: keepalive
+2023-01-20 19:50:26,819 DEBUG   SenderThread:8512 [sender.py:send():334] send: files
+2023-01-20 19:50:26,820 INFO    SenderThread:8512 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-01-20 19:50:26,827 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: stop_status
+2023-01-20 19:50:26,828 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: stop_status
+2023-01-20 19:50:27,023 DEBUG   SenderThread:8512 [sender.py:send():334] send: telemetry
+2023-01-20 19:50:27,023 DEBUG   SenderThread:8512 [sender.py:send():334] send: telemetry
+2023-01-20 19:50:27,023 DEBUG   SenderThread:8512 [sender.py:send():334] send: exit
+2023-01-20 19:50:27,023 INFO    SenderThread:8512 [sender.py:send_exit():557] handling exit code: 1
+2023-01-20 19:50:27,024 INFO    SenderThread:8512 [sender.py:send_exit():559] handling runtime: 9
+2023-01-20 19:50:27,026 INFO    SenderThread:8512 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-20 19:50:27,027 INFO    SenderThread:8512 [sender.py:send_exit():565] send defer
+2023-01-20 19:50:27,027 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:27,027 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 0
+2023-01-20 19:50:27,028 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:27,028 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-01-20 19:50:27,028 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 1
+2023-01-20 19:50:27,029 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:27,029 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 1
+2023-01-20 19:50:27,029 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:27,029 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-01-20 19:50:27,029 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 2
+2023-01-20 19:50:27,030 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:27,030 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 2
+2023-01-20 19:50:27,030 INFO    HandlerThread:8512 [system_monitor.py:finish():161] Stopping system monitor
+2023-01-20 19:50:27,046 DEBUG   SystemMonitor:8512 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-20 19:50:27,047 DEBUG   SystemMonitor:8512 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-20 19:50:27,047 DEBUG   SystemMonitor:8512 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-20 19:50:27,048 INFO    HandlerThread:8512 [interfaces.py:finish():175] Joined cpu
+2023-01-20 19:50:27,048 INFO    HandlerThread:8512 [interfaces.py:finish():175] Joined disk
+2023-01-20 19:50:27,048 INFO    HandlerThread:8512 [interfaces.py:finish():175] Joined memory
+2023-01-20 19:50:27,048 INFO    HandlerThread:8512 [interfaces.py:finish():175] Joined network
+2023-01-20 19:50:27,049 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:27,049 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-01-20 19:50:27,049 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 3
+2023-01-20 19:50:27,049 DEBUG   SenderThread:8512 [sender.py:send():334] send: stats
+2023-01-20 19:50:27,050 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:27,050 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 3
+2023-01-20 19:50:27,050 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:27,050 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-01-20 19:50:27,050 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 4
+2023-01-20 19:50:27,051 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:27,051 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 4
+2023-01-20 19:50:27,051 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:27,051 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-01-20 19:50:27,051 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 5
+2023-01-20 19:50:27,051 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:27,051 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 5
+2023-01-20 19:50:27,052 DEBUG   SenderThread:8512 [sender.py:send():334] send: summary
+2023-01-20 19:50:27,052 INFO    SenderThread:8512 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-01-20 19:50:27,052 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:27,053 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-01-20 19:50:27,053 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 6
+2023-01-20 19:50:27,053 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:27,053 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 6
+2023-01-20 19:50:27,053 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:27,053 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-01-20 19:50:27,057 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: status_report
+2023-01-20 19:50:27,212 INFO    Thread-13 :8512 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/conda-environment.yaml
+2023-01-20 19:50:27,213 INFO    Thread-13 :8512 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/wandb-summary.json
+2023-01-20 19:50:27,213 INFO    Thread-13 :8512 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/wandb-metadata.json
+2023-01-20 19:50:27,293 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 7
+2023-01-20 19:50:27,293 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:27,293 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 7
+2023-01-20 19:50:27,294 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:27,294 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-01-20 19:50:27,294 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 8
+2023-01-20 19:50:27,294 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:27,294 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 8
+2023-01-20 19:50:27,295 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:27,295 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-01-20 19:50:27,295 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 9
+2023-01-20 19:50:27,295 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:27,295 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 9
+2023-01-20 19:50:27,295 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:27,296 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-01-20 19:50:27,296 INFO    SenderThread:8512 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-20 19:50:27,415 INFO    Thread-16 :8512 [upload_job.py:push():143] Uploaded file /var/folders/kz/8mvz9w616flgfgm_xycp5wrw0000gn/T/tmpf4693dpvwandb/9iddpfu5-wandb-metadata.json
+2023-01-20 19:50:27,843 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-20 19:50:28,214 INFO    Thread-13 :8512 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/config.yaml
+2023-01-20 19:50:28,215 INFO    SenderThread:8512 [dir_watcher.py:finish():392] scan: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files
+2023-01-20 19:50:28,215 INFO    SenderThread:8512 [dir_watcher.py:finish():406] scan save: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/requirements.txt requirements.txt
+2023-01-20 19:50:28,216 INFO    SenderThread:8512 [dir_watcher.py:finish():406] scan save: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/config.yaml config.yaml
+2023-01-20 19:50:28,221 INFO    SenderThread:8512 [dir_watcher.py:finish():406] scan save: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/wandb-summary.json wandb-summary.json
+2023-01-20 19:50:28,221 INFO    SenderThread:8512 [dir_watcher.py:finish():406] scan save: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/conda-environment.yaml conda-environment.yaml
+2023-01-20 19:50:28,226 INFO    SenderThread:8512 [dir_watcher.py:finish():406] scan save: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/wandb-metadata.json wandb-metadata.json
+2023-01-20 19:50:28,226 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 10
+2023-01-20 19:50:28,226 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: poll_exit
+2023-01-20 19:50:28,231 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:28,231 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 10
+2023-01-20 19:50:28,235 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:28,235 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-01-20 19:50:28,235 INFO    SenderThread:8512 [file_pusher.py:finish():160] shutting down file pusher
+2023-01-20 19:50:28,847 INFO    Thread-19 :8512 [upload_job.py:push():143] Uploaded file /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/wandb-summary.json
+2023-01-20 19:50:28,848 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-20 19:50:28,849 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: poll_exit
+2023-01-20 19:50:28,868 INFO    Thread-18 :8512 [upload_job.py:push():143] Uploaded file /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/config.yaml
+2023-01-20 19:50:28,873 INFO    Thread-17 :8512 [upload_job.py:push():143] Uploaded file /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/requirements.txt
+2023-01-20 19:50:28,952 INFO    Thread-20 :8512 [upload_job.py:push():143] Uploaded file /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/files/conda-environment.yaml
+2023-01-20 19:50:29,154 INFO    Thread-12 :8512 [sender.py:transition_state():585] send defer: 11
+2023-01-20 19:50:29,155 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:29,155 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 11
+2023-01-20 19:50:29,156 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:29,156 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-01-20 19:50:29,157 INFO    SenderThread:8512 [file_pusher.py:join():165] waiting for file pusher
+2023-01-20 19:50:29,157 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 12
+2023-01-20 19:50:29,158 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:29,158 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 12
+2023-01-20 19:50:29,159 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:29,159 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-01-20 19:50:29,695 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 13
+2023-01-20 19:50:29,696 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:29,696 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 13
+2023-01-20 19:50:29,697 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:29,697 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-01-20 19:50:29,697 INFO    SenderThread:8512 [sender.py:transition_state():585] send defer: 14
+2023-01-20 19:50:29,697 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: defer
+2023-01-20 19:50:29,698 INFO    HandlerThread:8512 [handler.py:handle_request_defer():170] handle defer: 14
+2023-01-20 19:50:29,699 DEBUG   SenderThread:8512 [sender.py:send():334] send: final
+2023-01-20 19:50:29,700 DEBUG   SenderThread:8512 [sender.py:send():334] send: footer
+2023-01-20 19:50:29,700 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: defer
+2023-01-20 19:50:29,700 INFO    SenderThread:8512 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-01-20 19:50:29,702 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: poll_exit
+2023-01-20 19:50:29,703 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: server_info
+2023-01-20 19:50:29,703 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: get_summary
+2023-01-20 19:50:29,704 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: sampled_history
+2023-01-20 19:50:29,705 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: poll_exit
+2023-01-20 19:50:29,705 DEBUG   SenderThread:8512 [sender.py:send_request():361] send_request: server_info
+2023-01-20 19:50:30,113 DEBUG   HandlerThread:8512 [handler.py:handle_request():144] handle_request: shutdown
+2023-01-20 19:50:30,113 INFO    HandlerThread:8512 [handler.py:finish():841] shutting down handler
+2023-01-20 19:50:30,708 INFO    WriterThread:8512 [datastore.py:close():299] close: /Users/sahbiabderrazak/Desktop/mlops_exercises/src/models/outputs/2023-01-20/19-50-12/wandb/run-20230120_195016-pgrsejtx/run-pgrsejtx.wandb
+2023-01-20 19:50:31,114 INFO    SenderThread:8512 [sender.py:finish():1491] shutting down sender
+2023-01-20 19:50:31,114 INFO    SenderThread:8512 [file_pusher.py:finish():160] shutting down file pusher
+2023-01-20 19:50:31,115 INFO    SenderThread:8512 [file_pusher.py:join():165] waiting for file pusher
