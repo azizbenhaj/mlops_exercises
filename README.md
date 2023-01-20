@@ -1,6 +1,6 @@
 MLOPS_exercises
 ==============================
-I am commiting most of the daily exercises of MLOPS that i did on my computer
+Because I directly implemented all the course materials on the project and a little bit on the exercises, I am commiting what I did for the daily exercises about detecting numbers from the mnist dataset that i did on my computer.
 ...
 
 Project Organization
