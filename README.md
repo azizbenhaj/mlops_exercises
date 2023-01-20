@@ -1,4 +1,4 @@
-project_name
+MLOPS_exercises
 ==============================
 
 ...
